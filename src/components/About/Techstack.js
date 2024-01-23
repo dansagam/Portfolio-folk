@@ -1,71 +1,111 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import { CgCPlusPlus } from "react-icons/cg";
-import {
-  DiJavascript1,
-  DiReact,
-  DiNodejs,
-  DiMongodb,
-  DiPython,
-  DiGit,
-  DiJava,
-} from "react-icons/di";
+import { DiJavascript1, DiReact, DiNodejs, DiMongodb, DiPython, DiGit } from "react-icons/di";
+import { FaAws, FaDocker } from "react-icons/fa";
 import {
   SiRedis,
   SiFirebase,
   SiNextdotjs,
-  SiSolidity,
   SiPostgresql,
+  SiAntdesign,
+  SiAngularjs,
+  SiNestjs,
+  SiTailwindcss,
+  SiTypescript,
+  SiExpress,
+  SiD3Dotjs,
 } from "react-icons/si";
-import { TbBrandGolang } from "react-icons/tb";
 
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-      <Col xs={4} md={2} className="tech-icons">
-        <CgCPlusPlus />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiJavascript1 />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <TbBrandGolang />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiNodejs />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiReact />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiSolidity />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiMongodb />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiNextdotjs />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiGit />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiFirebase />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiRedis />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiPostgresql />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiPython />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiJava />
-      </Col>
+      {stackMock().map(({ icon: Icon, color }, idc) => (
+        <Col xs={4} md={2} key={`${idc}`} className="tech-icons">
+          <Icon fill={color} />
+        </Col>
+      ))}
     </Row>
   );
 }
 
 export default Techstack;
+
+const stackMock = () => [
+  {
+    icon: DiReact,
+    color: "purple",
+  },
+  {
+    icon: SiAngularjs,
+    color: "red",
+  },
+  {
+    icon: SiNestjs,
+    color: "red",
+  },
+  {
+    icon: FaDocker,
+    color: "blue",
+  },
+  {
+    icon: SiExpress,
+    color: "red",
+  },
+  {
+    icon: FaAws,
+    color: "red",
+  },
+  {
+    icon: SiTypescript,
+    color: "lightblue",
+  },
+  {
+    icon: DiJavascript1,
+    color: "yellow",
+  },
+
+  {
+    icon: DiNodejs,
+    color: "red",
+  },
+  {
+    icon: DiGit,
+    color: "red",
+  },
+  {
+    icon: DiMongodb,
+    color: "green",
+  },
+  {
+    icon: SiFirebase,
+    color: "red",
+  },
+  {
+    icon: SiRedis,
+    color: "red",
+  },
+  {
+    icon: DiPython,
+    color: "yellow",
+  },
+  {
+    icon: SiAntdesign,
+    color: "purple",
+  },
+  {
+    icon: SiTailwindcss,
+    color: "red",
+  },
+  {
+    icon: SiNextdotjs,
+    color: "red",
+  },
+  {
+    icon: SiPostgresql,
+    color: "red",
+  },
+  {
+    icon: SiD3Dotjs,
+    color: "red",
+  },
+];
