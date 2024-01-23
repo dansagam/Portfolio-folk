@@ -98,11 +98,11 @@ const stackMock = () => [
   },
   {
     icon: SiNextdotjs,
-    color: "red",
+    color: "gray",
   },
   {
     icon: SiPostgresql,
-    color: "red",
+    color: "cyan",
   },
   {
     icon: SiD3Dotjs,
