@@ -8,11 +8,11 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Kayode Ogunnowo</span>
-            from <span className="purple">Lagos, Nigeria.</span>
+            Hi Everyone, I am <span className="purple">Kayode Ogunnowo</span> from{" "}
+            <span className="purple">Lagos, Nigeria.</span>
             <br />I have got about{" "}
             <span className="purple">{new Date().getFullYear() - new Date(2019, 1, 20).getFullYear()}</span> years
-            experience I am currently employed as a software developer at Juspay.
+            experience. I am currently building a SaaS Human Resource and Payroll System
             <br />
             I actually love writting code and reviewing new technologies.
             <br />

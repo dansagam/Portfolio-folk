@@ -14,6 +14,7 @@ import {
   SiTypescript,
   SiExpress,
   SiD3Dotjs,
+  SiMui,
 } from "react-icons/si";
 
 function Techstack() {
@@ -60,6 +61,22 @@ const stackMock = () => [
     color: "lightblue",
   },
   {
+    icon: SiMui,
+    color: "blue",
+  },
+  {
+    icon: SiAntdesign,
+    color: "purple",
+  },
+  {
+    icon: SiTailwindcss,
+    color: "red",
+  },
+  {
+    icon: SiNextdotjs,
+    color: "gray",
+  },
+  {
     icon: DiJavascript1,
     color: "yellow",
   },
@@ -87,18 +104,6 @@ const stackMock = () => [
   {
     icon: DiPython,
     color: "yellow",
-  },
-  {
-    icon: SiAntdesign,
-    color: "purple",
-  },
-  {
-    icon: SiTailwindcss,
-    color: "red",
-  },
-  {
-    icon: SiNextdotjs,
-    color: "gray",
   },
   {
     icon: SiPostgresql,
