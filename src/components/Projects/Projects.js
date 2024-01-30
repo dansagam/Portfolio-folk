@@ -125,113 +125,127 @@ const projectMock = () => [
   {
     image: "",
     title: "Stanbic Loan App (Lead)",
-    description: "",
+    description:
+      "This Platform is built with ANGULARJS and NGRX. This application help people (lower class citizens) to ease the accessibility of loan by just providing information on the bvn, verification of the credit score of the bvn and disbursement of the loan amount",
     github: "https://github.com/Prunedge-Dev-Team/stanbic-upl-web",
     demo: "https://ezcash.stanbicibtc.com/EZCash9-5/onboarding/start",
   },
   {
     image: "",
     title: "Mtn Internal Loan Application (Contributor)",
-    description: "",
+    description:
+      "This is an internal loan application for the staffs of MTN for easy work through and process within the organisation. This Platform is built with ANGULARJS",
     github: "https://github.com/Prunedge-Dev-Team/stanbic-loan-web",
     demo: "https://stanbic-loan-dev.netlify.app/",
   },
   {
     image: "",
     title: "Kwara e-Procurement Application (Contributor/Lead)",
-    description: "",
+    description:
+      "This application is Kwara State government of Nigeria digital procurement system to manage the budget of the state government, showing the approval process and signing of the certificates of intent and the CNO for contract. it is also the platform to help potential vendors to bill for contract",
     github: "https://github.com/Prunedge-Dev-Team/web-kwara-eprocurement",
     demo: "https://kwara-eprocurement-staging.netlify.app/",
   },
   {
     image: "",
     title: "Delta e-Procurement Applcation (Contributor/Lead)",
-    description: "",
+    description:
+      "This application is Delta State government of Nigeria digital procurement system to manage the budget of the state government, showing the approval process and signing of the certificates of intent and the CNO for contract. it is also the platform to help potential vendors to bill for contract",
     github: "https://github.com/Prunedge-Dev-Team/eprocurement-delta-web",
     demo: "https://eprocurement-delta-staging.netlify.app/",
   },
   {
     image: "",
     title: "Delta Learning Platform. (Contributor)",
-    description: "",
-    github: "",
-    demo: "",
+    description:
+      "This is a state governemt digital learning platform for student. it carter for the materials, the examination and for the ease of learning in a multitenant platform where the school are sitting on a subdomain. The platform is built using GraphQL, React, ",
+    github: "https://github.com/Prunedge-Dev-Team/delta-lms-web",
+    demo: "https://dslms.ng/",
+  },
+  {
+    image: "",
+    title: "Nakise Learning Platform. (Contributor)",
+    description:
+      "This is a digital learning platform for the tutors and students. just like every other platform, you can stream your course online and rate you tutors",
+    github: "https://github.com/Prunedge-Dev-Team/nakise-web",
+    demo: "https://app.nakise.org/",
   },
   {
     image: "",
     title: "Ekiti State Work Process.",
-    description: "",
-    github: "",
-    demo: "",
+    description:
+      "This is a state govermental workflow. it detail the process of signing contract, the process for the procedure and working of government and its permanent secretaries.",
+    github: "https://github.com/Prunedge-Dev-Team/proworks-web",
+    demo: "https://proworks-oyo.vercel.app/signin",
   },
   {
     image: "",
     title: "Nigeria Poverty Map index",
-    description: "",
-    github: "",
-    demo: "",
+    description:
+      "This application hold information about the poverty index mapping accross nigeria. it is built with NextJs and GraphQL. on this platform. you can  easily access the poverty trend going on in Nigeria.",
+    github: "https://github.com/Prunedge-Dev-Team/mpi-web",
+    demo: "http://staging.nigeriapovertymap.com",
   },
   {
     image: "",
     title: "Election Poll analysis application",
-    description: "",
-    github: "",
-    demo: "",
+    description:
+      "The platform help in carrying out poll analysis and sentiment analysis on your candidate using the d3 location driven poll.",
+    github: "https://github.com/Prunedge-Dev-Team/polleasy-web",
+    demo: "http://dats.apcregistration.com",
   },
   {
     image: "",
     title: "Transporation Application. (Backend/Django)",
-    description: "",
-    github: "",
+    description:
+      "This is Bus Rapid transit application to help in the easy boarding of bus, it track the bus movement and the driver and the ticket of the boarded bus",
+    github: "https://github.com/Prunedge-Dev-Team/korensi-api",
     demo: "",
   },
   {
     image: "",
     title: "Government Budget Platform.",
-    description: "",
-    github: "",
-    demo: "",
+    description:
+      "This is federal government project to keep storage of the budget of each year of government. it is built with ReactJs, React-query",
+    github: "https://github.com/Prunedge-Dev-Team/budgit-web",
+    demo: "https://bnpdev.netlify.app/citizens/overview",
   },
-  {
-    image: "",
-    title: "Petroluem Pump Map Application",
-    description: "",
-    github: "",
-    demo: "",
-  },
+  // {
+  //   image: "",
+  //   title: "Petroluem Pump Map Application",
+  //   description: "",
+  //   github: "",
+  //   demo: "",
+  // },
   {
     image: "",
     title: "Ewa Station Application (Lead)",
-    description: "",
+    description:
+      "This is a food vendor platfor that deliver food to client that book online. it is built with NextJs, using Google Maps",
     github: "",
     demo: "",
   },
   {
     image: "",
     title: "Church Process Application. (Lead)",
-    description: "",
-    github: "",
-    demo: "",
+    description:
+      "This is application to help the church and its leadership to monitor the number of soul won, the offering and tithe. the attendance of the workforce. This platform is built with ReactJs and GraphQL",
+    github: "https://github.com/Clchub/CLCHUB-client",
+    demo: "https://clchub-web-staging.netlify.app/signin",
   },
   {
     image: "",
-    title: "Online Shopper platform",
-    description: "",
-    github: "",
-    demo: "",
+    title: "Boosta Online Shopper platform",
+    description: "This is an online retail shop platform for sale of goods and commodity products",
+    github: "https://github.com/Prunedge-Dev-Team/rms-web",
+    demo: "https://boosta.ng/",
   },
   {
     image: "",
     title: "Insurance Platform Application.",
-    description: "",
-    github: "",
-    demo: "",
-  },
-  {
-    image: "",
-    title: "",
-    description: "",
-    github: "",
+    description:
+      "This is a multi-platform insurance application for the onboarding of enrollee, checking of Benefit and insurance stack. It is also a platform for the claiming of damages claims ",
+    github: "https://github.com/Prunedge-Dev-Team/leadway-health-web",
     demo: "",
   },
 ];
