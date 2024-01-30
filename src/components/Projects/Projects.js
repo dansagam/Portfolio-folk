@@ -200,7 +200,7 @@ const projectMock = () => [
     description:
       "This is Bus Rapid transit application to help in the easy boarding of bus, it track the bus movement and the driver and the ticket of the boarded bus",
     github: "https://github.com/Prunedge-Dev-Team/korensi-api",
-    demo: "",
+    demo: "https://admin.korensi.com/signin",
   },
   {
     image: "",
@@ -217,14 +217,14 @@ const projectMock = () => [
   //   github: "",
   //   demo: "",
   // },
-  {
-    image: "",
-    title: "Ewa Station Application (Lead)",
-    description:
-      "This is a food vendor platfor that deliver food to client that book online. it is built with NextJs, using Google Maps",
-    github: "",
-    demo: "",
-  },
+  // {
+  //   image: "",
+  //   title: "Ewa Station Application (Lead)",
+  //   description:
+  //     "This is a food vendor platfor that deliver food to client that book online. it is built with NextJs, using Google Maps",
+  //   github: "",
+  //   demo: "",
+  // },
   {
     image: "",
     title: "Church Process Application. (Lead)",
@@ -240,12 +240,12 @@ const projectMock = () => [
     github: "https://github.com/Prunedge-Dev-Team/rms-web",
     demo: "https://boosta.ng/",
   },
-  {
-    image: "",
-    title: "Insurance Platform Application.",
-    description:
-      "This is a multi-platform insurance application for the onboarding of enrollee, checking of Benefit and insurance stack. It is also a platform for the claiming of damages claims ",
-    github: "https://github.com/Prunedge-Dev-Team/leadway-health-web",
-    demo: "",
-  },
+  // {
+  //   image: "",
+  //   title: "Insurance Platform Application.",
+  //   description:
+  //     "This is a multi-platform insurance application for the onboarding of enrollee, checking of Benefit and insurance stack. It is also a platform for the claiming of damages claims ",
+  //   github: "https://github.com/Prunedge-Dev-Team/leadway-health-web",
+  //   demo: "",
+  // },
 ];
