@@ -107,7 +107,7 @@ export default Projects;
 
 const projectMock = () => [
   {
-    image: "",
+    image: "https://res.cloudinary.com/du7qw0hpn/image/upload/v1708707929/portfolio/qn6r2n2dpqazohcrknzd.png",
     title: "Edge Human resource and Payroll (Lead)",
     description:
       "A a Self Customisable Software as a Service (SaaS) Human Resource and Payroll Service Provider. Thie patform help organisation management the employees, the renumeration of the employees and and the payroll record. Activities like Promotion, leave, Loan, Voluntary contributions, recruitments and announcements are well known established process managed on the platform",
@@ -115,7 +115,7 @@ const projectMock = () => [
     demo: "https://edgehr.netlify.app/signin",
   },
   {
-    image: "",
+    image: "https://res.cloudinary.com/du7qw0hpn/image/upload/v1708707928/portfolio/mp4f8hye1xgtclxdkhxk.png",
     title: "Keystone Human resource and Payroll (Lead)",
     description:
       "A a Self Customisable Internal App Human Resource and Payroll for keystone Bank. Thie patform help organisation management the employees, the renumeration of the employees and and the payroll record. Activities like Promotion, leave, Loan, Voluntary contributions, recruitments and announcements are well known established process managed on the platform",
@@ -123,7 +123,7 @@ const projectMock = () => [
     demo: "https://keystone-hrms-dev.netlify.app/",
   },
   {
-    image: "",
+    image: "https://res.cloudinary.com/du7qw0hpn/image/upload/v1708707929/portfolio/e373xqlntetpaxfr0zlf.png",
     title: "Stanbic Loan App (Lead)",
     description:
       "This Platform is built with ANGULARJS and NGRX. This application help people (lower class citizens) to ease the accessibility of loan by just providing information on the bvn, verification of the credit score of the bvn and disbursement of the loan amount",
@@ -131,7 +131,7 @@ const projectMock = () => [
     demo: "https://ezcash.stanbicibtc.com/EZCash9-5/onboarding/start",
   },
   {
-    image: "",
+    image: "https://res.cloudinary.com/du7qw0hpn/image/upload/v1708707927/portfolio/jjhua7t5o0iowxieuijd.png",
     title: "Mtn Internal Loan Application (Contributor)",
     description:
       "This is an internal loan application for the staffs of MTN for easy work through and process within the organisation. This Platform is built with ANGULARJS",
@@ -139,7 +139,7 @@ const projectMock = () => [
     demo: "https://stanbic-loan-dev.netlify.app/",
   },
   {
-    image: "",
+    image: "https://res.cloudinary.com/du7qw0hpn/image/upload/v1708707927/portfolio/llipc18zzfjx5ou9udri.png",
     title: "Kwara e-Procurement Application (Contributor/Lead)",
     description:
       "This application is Kwara State government of Nigeria digital procurement system to manage the budget of the state government, showing the approval process and signing of the certificates of intent and the CNO for contract. it is also the platform to help potential vendors to bill for contract",
@@ -147,7 +147,7 @@ const projectMock = () => [
     demo: "https://kwara-eprocurement-staging.netlify.app/",
   },
   {
-    image: "",
+    image: "https://res.cloudinary.com/du7qw0hpn/image/upload/v1708707927/portfolio/llipc18zzfjx5ou9udri.png",
     title: "Delta e-Procurement Applcation (Contributor/Lead)",
     description:
       "This application is Delta State government of Nigeria digital procurement system to manage the budget of the state government, showing the approval process and signing of the certificates of intent and the CNO for contract. it is also the platform to help potential vendors to bill for contract",
@@ -155,7 +155,7 @@ const projectMock = () => [
     demo: "https://eprocurement-delta-staging.netlify.app/",
   },
   {
-    image: "",
+    image: "https://res.cloudinary.com/du7qw0hpn/image/upload/v1708707928/portfolio/q8rjbiee0qeymfpjgat4.png",
     title: "Delta Learning Platform. (Contributor)",
     description:
       "This is a state governemt digital learning platform for student. it carter for the materials, the examination and for the ease of learning in a multitenant platform where the school are sitting on a subdomain. The platform is built using GraphQL, React, ",
@@ -163,7 +163,7 @@ const projectMock = () => [
     demo: "https://dslms.ng/",
   },
   {
-    image: "",
+    image: "https://res.cloudinary.com/du7qw0hpn/image/upload/v1708707928/portfolio/omatgiljtyjtma94ahjs.png",
     title: "Nakise Learning Platform. (Contributor)",
     description:
       "This is a digital learning platform for the tutors and students. just like every other platform, you can stream your course online and rate you tutors",
@@ -171,15 +171,15 @@ const projectMock = () => [
     demo: "https://app.nakise.org/",
   },
   {
-    image: "",
-    title: "Ekiti State Work Process.",
+    image: "https://res.cloudinary.com/du7qw0hpn/image/upload/v1708707928/portfolio/oxhoou4q6w90bbgthhb5.png",
+    title: "Ekiti State Work Process. (Django and React Developer)",
     description:
       "This is a state govermental workflow. it detail the process of signing contract, the process for the procedure and working of government and its permanent secretaries.",
     github: "https://github.com/Prunedge-Dev-Team/proworks-web",
     demo: "https://proworks-oyo.vercel.app/signin",
   },
   {
-    image: "",
+    image: "https://res.cloudinary.com/du7qw0hpn/image/upload/v1708707927/portfolio/gvdgffgd5yw45rkvjqga.png",
     title: "Nigeria Poverty Map index",
     description:
       "This application hold information about the poverty index mapping accross nigeria. it is built with NextJs and GraphQL. on this platform. you can  easily access the poverty trend going on in Nigeria.",
@@ -187,7 +187,7 @@ const projectMock = () => [
     demo: "http://staging.nigeriapovertymap.com",
   },
   {
-    image: "",
+    image: "https://res.cloudinary.com/du7qw0hpn/image/upload/v1708707928/portfolio/oxhoou4q6w90bbgthhb5.png",
     title: "Election Poll analysis application",
     description:
       "The platform help in carrying out poll analysis and sentiment analysis on your candidate using the d3 location driven poll.",
@@ -195,7 +195,7 @@ const projectMock = () => [
     demo: "http://dats.apcregistration.com",
   },
   {
-    image: "",
+    image: "https://res.cloudinary.com/du7qw0hpn/image/upload/v1708707927/portfolio/hgpcbqq8tidsbhwdvtj8.png",
     title: "Transporation Application. (Backend/Django)",
     description:
       "This is Bus Rapid transit application to help in the easy boarding of bus, it track the bus movement and the driver and the ticket of the boarded bus",
@@ -203,7 +203,7 @@ const projectMock = () => [
     demo: "https://admin.korensi.com/signin",
   },
   {
-    image: "",
+    image: "https://res.cloudinary.com/du7qw0hpn/image/upload/v1708707926/portfolio/aja7z1p8hk22rjl8pvru.png",
     title: "Government Budget Platform.",
     description:
       "This is federal government project to keep storage of the budget of each year of government. it is built with ReactJs, React-query",
@@ -226,7 +226,7 @@ const projectMock = () => [
   //   demo: "",
   // },
   {
-    image: "",
+    image: "https://res.cloudinary.com/du7qw0hpn/image/upload/v1708707926/portfolio/b1jghsvlo7oxytlyuqzh.png",
     title: "Church Process Application. (Lead)",
     description:
       "This is application to help the church and its leadership to monitor the number of soul won, the offering and tithe. the attendance of the workforce. This platform is built with ReactJs and GraphQL",
