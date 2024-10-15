@@ -101,12 +101,44 @@ export default Projects;
 
 const projectMock = () => [
   {
+    image: "https://res.cloudinary.com/du7qw0hpn/image/upload/v1729020519/spotflow-image.png",
+    title: "Spotflow Seamless Payment (Lead Frontend)",
+    description:
+      "This platform helps with seamless payment accross border and for renewal of payment subscriptions management, collection management and settlements",
+    github: "https://github.com/Spotflow-One/payment-gateway-frontend",
+    demo: "https://api-integration.d18r19vvqh1a7y.amplifyapp.com/login",
+  },
+  {
     image: "https://res.cloudinary.com/du7qw0hpn/image/upload/v1708707929/portfolio/qn6r2n2dpqazohcrknzd.png",
     title: "Edge Human resource and Payroll (Lead)",
     description:
       "A a Self Customisable Software as a Service (SaaS) Human Resource and Payroll Service Provider. Thie patform help organisation management the employees, the renumeration of the employees and and the payroll record. Activities like Promotion, leave, Loan, Voluntary contributions, recruitments and announcements are well known established process managed on the platform",
     github: "https://github.com/Prunedge-Dev-Team/keystone-hris-web",
     demo: "https://edgehr.netlify.app/signin",
+  },
+  {
+    image: "#",
+    title: "Spotflow SDK (Lead Frontend)",
+    description:
+      "This SDK was built with the use of vannila Js from which other SDKs (React, VueJs, AngularJs) were wrapped, this SDK is payment checkout for Merchant to seamlessly integrate with their system for subscritpion and settlment management",
+    github: "https://github.com/Spotflow-One/spotflow-react-v2-checkout",
+    demo: "https://www.npmjs.com/package/@spot-flow/react-spotflow-checkout",
+  },
+  {
+    image: "https://res.cloudinary.com/du7qw0hpn/image/upload/v1729020028/nigerirs-web-image.png",
+    title: "Internal Revenue System. NestJs (Backend)",
+    description:
+      "This is an application built with NestJs, Prisma ORM, integrated with CBS and Monify for easily tax payments and invoice generation for the State Government",
+    github: "https://github.com/Prunedge-Dev-Team/nigerirs-api",
+    demo: "https://nigerirs.netlify.app/sign-in",
+  },
+  {
+    image: "https://res.cloudinary.com/du7qw0hpn/image/upload/v1708707927/portfolio/hgpcbqq8tidsbhwdvtj8.png",
+    title: "Transporation Application. (Backend/Django)",
+    description:
+      "This is Bus Rapid transit application to help in the easy boarding of bus, it track the bus movement and the driver and the ticket of the boarded bus",
+    github: "https://github.com/Prunedge-Dev-Team/korensi-api",
+    demo: "https://admin.korensi.com/signin",
   },
   {
     image: "https://res.cloudinary.com/du7qw0hpn/image/upload/v1708707928/portfolio/mp4f8hye1xgtclxdkhxk.png",
@@ -187,14 +219,6 @@ const projectMock = () => [
       "The platform help in carrying out poll analysis and sentiment analysis on your candidate using the d3 location driven poll.",
     github: "https://github.com/Prunedge-Dev-Team/polleasy-web",
     demo: "http://dats.apcregistration.com",
-  },
-  {
-    image: "https://res.cloudinary.com/du7qw0hpn/image/upload/v1708707927/portfolio/hgpcbqq8tidsbhwdvtj8.png",
-    title: "Transporation Application. (Backend/Django)",
-    description:
-      "This is Bus Rapid transit application to help in the easy boarding of bus, it track the bus movement and the driver and the ticket of the boarded bus",
-    github: "https://github.com/Prunedge-Dev-Team/korensi-api",
-    demo: "https://admin.korensi.com/signin",
   },
   {
     image: "https://res.cloudinary.com/du7qw0hpn/image/upload/v1708707926/portfolio/aja7z1p8hk22rjl8pvru.png",
